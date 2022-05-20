@@ -11,7 +11,7 @@ const Tasklist = ({tasks, deletetask}) => {
             <FontAwesomeIcon icon="fa-regular fa-circle-xmark" size="lg"/>
           </button>
         </div>
-      )
+        )
     })
   ) : (
     <p className="pxy">You have no tasks today, Yay!</p>

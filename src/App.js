@@ -17,10 +17,12 @@ class App extends Component {
   addtask = (task) => {
     task.id = Math.random() * 10;
     let tasks = [...this.state.tasks, task];
+    tasks = tasks.filter((task) => {
+      return task.task !== ''
+    })
     this.setState({
       tasks
     })
-    console.log(tasks)
   }
 
   deletetask = (id) => {
@@ -30,16 +32,6 @@ class App extends Component {
     this.setState({
       tasks
     })
-    console.log(tasks)
-  }
-
-  componentDidMount() {
-    console.log('component mounted')
-  }
-
-  componentDidUpdate(prevProps, prevState) {
-    console.log('component Updated');
-    console.log(prevProps, prevState)
   }
 
   render() {

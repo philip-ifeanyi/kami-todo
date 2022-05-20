@@ -15,7 +15,7 @@ class Addtask extends Component {
     e.preventDefault();
     this.props.Addtask(this.state);
     this.setState({
-      task : ""
+      task : ''
     })
   }
 

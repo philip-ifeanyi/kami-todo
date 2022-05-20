@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kami-todo/static/css/main.5a0c13d9.css",
-    "main.js": "/kami-todo/static/js/main.6fb66d85.js",
+    "main.js": "/kami-todo/static/js/main.f31e44c3.js",
     "static/js/787.63e47474.chunk.js": "/kami-todo/static/js/787.63e47474.chunk.js",
     "index.html": "/kami-todo/index.html",
     "main.5a0c13d9.css.map": "/kami-todo/static/css/main.5a0c13d9.css.map",
-    "main.6fb66d85.js.map": "/kami-todo/static/js/main.6fb66d85.js.map",
+    "main.f31e44c3.js.map": "/kami-todo/static/js/main.f31e44c3.js.map",
     "787.63e47474.chunk.js.map": "/kami-todo/static/js/787.63e47474.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a0c13d9.css",
-    "static/js/main.6fb66d85.js"
+    "static/js/main.f31e44c3.js"
   ]
 }
